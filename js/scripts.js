@@ -98,9 +98,9 @@ $(document).ready(function() {
 
     // add name to result if there is one
     if (name === "") {
-      $(".remove-name-text").hide();
+      $(".name-text").hide();
     } else {
-      $(".remove-name-text").show();
+      $(".name-text").show();
     };
     $('.insert-name').text(name);
 
