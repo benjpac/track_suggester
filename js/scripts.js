@@ -30,7 +30,7 @@ $(document).ready(function() {
     var androidTrack = 0;
     var designTrack = 0;
 
-    // if statements to calculate weight of answers and add to track variables
+    // if statements to calculate weight of answers, then add to track variables
     if (question1 === "large") {
       rubyTrack += .2;
       androidTrack += 1;
@@ -96,6 +96,15 @@ $(document).ready(function() {
     // pass totals to result function
     calcResult(rubyTrack, androidTrack, designTrack);
 
+    // add name to result if there is one
+    if (name === "") {
+      $(".remove-name-text").hide();
+    } else {
+      $(".remove-name-text").show();
+    };
+    $('.insert-name').text(name);
+
+    // display popup based on winning result
     if (result === "ruby") {
       $('#ruby').w2popup();
     } else if (result === "android") {
