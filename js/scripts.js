@@ -16,7 +16,6 @@ var calcResult = function(rubyTrack, androidTrack, designTrack) {
 $(document).ready(function() {
   $("form#trackPicker").submit(function() {
     event.preventDefault();
-    // debugger;
 
     // get question values from form
     var name = $("#name").val();
@@ -32,7 +31,6 @@ $(document).ready(function() {
     var designTrack = 0;
 
     // if statements to calculate weight of answers and add to track variables
-    debugger;
     if (question1 === "large") {
       rubyTrack += .2;
       androidTrack += 1;
@@ -95,6 +93,7 @@ $(document).ready(function() {
       designTrack += .3;
     }
 
+    // pass totals to result function
     calcResult(rubyTrack, androidTrack, designTrack);
 
     if (result === "ruby") {

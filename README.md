@@ -1,34 +1,28 @@
-# _{Application Name}_
+# _{Track Suggester}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Suggest development track based on multiple choice answers}, {3/24/17}_
 
-#### By _**{List of contributors}**_
+#### By _**{Ben Metzger}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Create a Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant.
 
-## Setup/Installation Requirements
-
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+Include a minimum of 5 survey questions.
+Offer a minimum of 3 different track suggestions (you are not required to include every track, see note below).
+Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone. }_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{None}_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{Please email bugs, comments, and suggestions to benjpac@gmail.com }_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{JavaScript, JQuery, Bootstrap, w2ui.}_
 
 ### License
 
