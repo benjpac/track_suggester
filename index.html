@@ -3,48 +3,148 @@
   <head>
     <title>Track Suggester</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
-
     <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>Track Suggester</h1>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
       <form id="trackPicker">
+        <h3>What size company do you want to work for?</h3>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="val1" checked>
-            val1
+            <input type="radio" name="question1" value="large" checked>
+            Large, enterprise (e.g. Microsoft, Amazon, Google, etc).
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="val2">
-            val2
+            <input type="radio" name="question1" value="small">
+            Small, startup (e.g. generally companies with ~200 people or less).
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="val3">
-            val3
+            <input type="radio" name="question1" value="none">
+            Don't know / don't care.
+          </label>
+        </div>
+        <h3>Do you enjoy the design aspect of web development?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="yes" checked>
+            Yes, very much.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="question1" value="val4">
-            val4
+            <input type="radio" name="question2" value="somewhat">
+            Somewhat.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="no">
+            No, not at all. I only like to program.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="none">
+            Don't know / don't care.
+          </label>
+        </div>
+        <h3>How important is it for you to learn the most widely used programming languages?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="yes" checked>
+            Very important.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="somewhat">
+            Somewhat important.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="no">
+            Not important.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="none">
+            Don't know / don't care.
+          </label>
+        </div>
+        <h3>Do you enjoy the design aspect of development?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="yes" checked>
+            Yes, very much
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="somewhat">
+            Somewhat
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="no">
+            No, not at all
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="none">
+            Don't know / don't care
+          </label>
+        </div>
+        <h3>Do you enjoy the design aspect of development?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="yes" checked>
+            Yes, very much
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="somewhat">
+            Somewhat
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="no">
+            No, not at all
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="none">
+            Don't know / don't care
           </label>
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>
-      <div id="output">
+      <div id="ruby">
+
+      </div>
+      <div id="android">
+
+      </div>
+      <div id="design">
 
       </div>
     </div>

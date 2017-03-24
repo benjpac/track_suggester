@@ -2,6 +2,7 @@
 $(document).ready(function()) {
   $("form#trackPicker").submit(function() {
     event.preventDefault();
+    var name = $("#input1").val();
     var question1 = $("input:radio[name=operator]:checked").val();
     var question2 = $("input:radio[name=operator]:checked").val();
     var question3 = $("input:radio[name=operator]:checked").val();
