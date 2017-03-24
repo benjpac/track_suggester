@@ -36,19 +36,19 @@ $(document).ready(function() {
     if (question1 === "large") {
       rubyTrack += .2;
       androidTrack += 1;
-      designTrack += .5;
+      designTrack += .3;
     } else if (question1 === "small") {
       rubyTrack += 1;
       androidTrack += .2;
-      designTrack += .5;
+      designTrack += .3;
     }
 
     if (question2 === "yes") {
-      rubyTrack += .3;
+      rubyTrack += .2;
       androidTrack += .1;
       designTrack += 1;
     } else if (question2 === "somewhat") {
-      rubyTrack += .5;
+      rubyTrack += .4;
       androidTrack += .3;
       designTrack += .5;
     } else if (question2 === "no") {
@@ -58,21 +58,21 @@ $(document).ready(function() {
     }
 
     if (question3 === "yes") {
-      rubyTrack += .3;
+      rubyTrack += .4;
       androidTrack += 1;
-      designTrack += .5;
+      designTrack += .4;
     } else if (question3 === "somewhat") {
       rubyTrack += .3;
       androidTrack += .6;
-      designTrack += .5;
+      designTrack += .4;
     } else if (question3 === "no") {
-      rubyTrack += .5;
+      rubyTrack += .4;
       androidTrack += .3;
-      designTrack += .5;
+      designTrack += .4;
     }
 
     if (question4 === "web") {
-      rubyTrack += 1;
+      rubyTrack += 1.1;
       androidTrack += .3;
       designTrack += .5;
     } else if (question4 === "android") {
