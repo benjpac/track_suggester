@@ -96,6 +96,13 @@ $(document).ready(function() {
     }
 
     calcResult(rubyTrack, androidTrack, designTrack);
-    alert(result);
+
+    if (result === "ruby") {
+      $('#ruby').w2popup();
+    } else if (result === "android") {
+      $('#android').w2popup();
+    } else if (result === "design") {
+      $('#design').w2popup();
+    }
   });
 });

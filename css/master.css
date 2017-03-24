@@ -16,6 +16,9 @@ body {
 
 #ruby, #android, #design {
   display: none;
+  width: 500px;
+  height: auto;
+  overflow: auto
 }
 
 #name {
