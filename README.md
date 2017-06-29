@@ -1,31 +1,31 @@
-# _{Track Suggester}_
+# _Track Suggester_
 
-#### _{Suggest development track based on multiple choice answers}, {3/24/17}_
+#### _Suggest development track based on multiple choice answers, 3/24/17_
 
-#### By _**{Ben Metzger}**_
+#### By _**Ben Metzger**_
 
 ## Description
 
-_{Create a Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant.
+_Create a Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant.
 
 Include a minimum of 5 survey questions.
 Offer a minimum of 3 different track suggestions (you are not required to include every track, see note below).
-Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone. }_
+Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone._
 
 ## Known Bugs
 
-_{None}_
+_None_
 
 ## Support and contact details
 
-_{Please email bugs, comments, and suggestions to benjpac@gmail.com }_
+_Please email bugs, comments, and suggestions to benjpac@gmail.com _
 
 ## Technologies Used
 
-_{JavaScript, JQuery, Bootstrap, w2ui.}_
+_JavaScript, JQuery, Bootstrap, w2ui._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Determine the license under which this application can be used.  See below for more details on licensing.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_List of contributors or company name_**
