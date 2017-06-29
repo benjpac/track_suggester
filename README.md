@@ -1,28 +1,28 @@
-# _Track Suggester_
+# Track Suggester
 
-#### _Suggest development track based on multiple choice answers, 3/24/17_
+#### Suggest development track based on multiple choice answers, 3/24/17
 
-#### By _**Ben Metzger**_
+#### By **Ben Metzger**
 
 ## Description
 
-_Create a Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant.
+Create a Track Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers. You can ask questions about the languages themselves, the kinds of environments where these languages are used, or anything else you find relevant.
 
 Include a minimum of 5 survey questions.
 Offer a minimum of 3 different track suggestions (you are not required to include every track, see note below).
-Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone._
+Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in tone.
 
 ## Known Bugs
 
-_None_
+None
 
 ## Support and contact details
 
-_Please email bugs, comments, and suggestions to benjpac@gmail.com _
+Please email bugs, comments, and suggestions to benjpac@gmail.com
 
 ## Technologies Used
 
-_JavaScript, JQuery, Bootstrap, w2ui._
+JavaScript, JQuery, Bootstrap, w2ui.
 
 ### License
 
